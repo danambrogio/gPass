@@ -1,7 +1,7 @@
 #####################################################################
 #   Graphical Password Generator  - gPass.pyw
 #
-#   Version 3.1
+#   Version 3.1.0
 #
 #   October 7, 2013
 #
@@ -33,18 +33,18 @@
 #       indicate improved functionality and ease-of-use changes.
 #       Letters indicate bugfixes.
 #
-#   3.1 - Added automatic selection of generated
+#   3.1.0 - Added automatic selection of generated
 #       passwords for easier copy-pasting and the
 #       ability to change output font. Better highlighting
-#   3.0 - New formula for calculating passwords shares
+#   3.0.0 - New formula for calculating passwords shares
 #       no characters between passwords to add more
 #       variety among any given user's passwords
-#   2.1 - Added <Escape> key functionality for
+#   2.1.0 - Added <Escape> key functionality for
 #       clearing the inputs and resetting the cursor    
-#   2.0 - New formula for calculating passwords
+#   2.0.0 - New formula for calculating passwords
 #       puts a higher focus on the site so that
 #       a single user's passwords have more variation
-#   1.0 - Release
+#   1.0.0 - Release
 #
 #####################################################################
 
@@ -56,7 +56,7 @@ import re
 #############
 #Global vars#
 #############
-version = "3.1"
+version = "3.1.0"
 
 #Pick your preferred font or none for default
 #chosenFont = ("Courier", "8")
